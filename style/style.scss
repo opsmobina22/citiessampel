@@ -1,0 +1,47 @@
+@import"vars";
+*{
+    padding:0 ;
+    margin: 0;
+    font-family: $fonts;
+}
+header{
+    background-color: $background-dark;
+    padding: $padding-large;
+    text-align: center;
+    h1{
+        color: $text-lite;
+    }
+}
+main{
+    div{
+        aside{
+            padding: $padding-small;
+            background-color: $background-lite;
+            nav{
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+display: block;
+padding: $padding-xsmall;
+color: $text-lite;
+text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        article{
+            padding: $padding-small;
+            p{
+                margin-top: $margin-top-xsmall;
+            }
+        }
+    }
+}
+footer{
+    background-color: $background-medium;
+    padding: $padding-medium;
+    text-align: center;
+    color: $text-lite;
+}
